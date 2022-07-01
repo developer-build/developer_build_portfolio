@@ -1,11 +1,18 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import Header from "./Components/Shear/Header/Header";
+import Footer from "./Components/Shear/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>developer build project</h1>
-      <p>Hello Developer Build</p>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
