@@ -6,11 +6,10 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: "red",
-          secondary: "#FF5851",
-          accent: "#3D4461",
-          neutral: "#E8F6FF",
-          "base-100": "#ffffff",
+          primary: "#2487ce",
+          secondary: "#111",
+          accent: "#16507b",
+          neutral: "#fff",
         },
       },
       "dark",
