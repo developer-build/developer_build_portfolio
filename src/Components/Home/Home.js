@@ -1,4 +1,5 @@
 import React from "react";
+
 import AboutSection from "./AboutSection/AboutSection";
 import ContactSection from "./ContactSection/ContactSection";
 import HeroSection from "./HeroSection/HeroSection";
@@ -10,6 +11,7 @@ import TeamSection from "./TeamSection/TeamSection";
 const Home = () => {
   return (
     <>
+
       <HeroSection />
       <AboutSection />
       <Services />
