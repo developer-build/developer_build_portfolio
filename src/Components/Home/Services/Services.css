@@ -1,0 +1,11 @@
+#icons-line {
+    color: #47aeff;
+    font-size: 80px;
+    transition: 0.4s;
+    
+}
+
+.services_card:hover #icons-line {
+    color: red;
+    font-size: 80px;
+}
