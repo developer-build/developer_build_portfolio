@@ -1,6 +1,7 @@
 import React from "react";
 import AboutSection from "./AboutSection/AboutSection";
 import ContactSection from "./ContactSection/ContactSection";
+import FAQsection from "./FAQsection/FAQsection";
 import HeroSection from "./HeroSection/HeroSection";
 import PortfolioSection from "./PortfolioSection/PortfolioSection";
 import PricingSection from "./PricingSection/PricingSection";
@@ -14,6 +15,7 @@ const Home = () => {
       <AboutSection />
       <Services />
       <PricingSection />
+      <FAQsection/>
       <PortfolioSection />
       <TeamSection />
       <ContactSection />
