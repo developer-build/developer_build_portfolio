@@ -7,7 +7,7 @@ import upwork from '../.../../../../Assets/Images/brand/up.png'
 const Brand = () => {
     return (
         <Fragment>
-            <div className="bard-aria py-8">
+            <div className="bard-aria py-8 custom_container">
                 <div className="grid grid-cols-1 lg:grid-cols-4 mt-7 px-12 justify-items-center ">
                     <img id='bradnimg' className='w-[200px] my-2' src={freelancer} />
                     <img id='bradnimg' className='w-[120px] my-2' src={fiveer} />

@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <Fragment>
       <Brand/>
-      <div className="servies-aria bg-[#F8FBFE] py-9">
+      <div className="servies-aria bg-[#F8FBFE] py-9 custom_container">
         <div className="container mx-auto">
           <div className="conent-aria text-center">
             <h1 className='text-[#124265] font-bold text-3xl mt-4'>Sevices</h1>
