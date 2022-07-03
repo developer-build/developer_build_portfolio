@@ -3,7 +3,7 @@ import './AboutSection.css'
 
 const AboutSection = () => {
   return (
-    <section id="about-section" className="custom_container text-secondary flex lg:flex-row flex-col items-center gap-10 lg:px-10 px-5 py-10">
+    <section id="about-section" className="custom_container text-secondary flex lg:flex-row flex-col items-center gap-10 lg:px-0 px-5 py-10">
 
       {/* video part */}
       <div className="video-div relative lg:w-1/2 w-full">
