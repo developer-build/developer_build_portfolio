@@ -15,7 +15,7 @@ const HeroSection = () => {
       icon: "fa-solid fa-layer-group",
       title: "Lorem Ipsum",
       description:
-        "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+        "Voluptatum delenit atque corrupti quos dolores et quas molestias excepturi",
     },
     {
       _id: "3",
