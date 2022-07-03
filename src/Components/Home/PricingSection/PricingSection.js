@@ -6,7 +6,7 @@ const PricingSection = () => {
     <div className="bg-[white]/60 py-24 lg:px-8 px-0 custom_container">
 <div className="custom_container">
       <header className="text-center mb-16">
-        <h1 className="text-5xl mb-4 text-black uppercase">Pricing</h1>
+      <h1 className="text-[#124265] font-bold text-3xl mt-4 uppercase">Pricing</h1>
         <p className="leading-normal text-gray-900 md:w-1/2 md:mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam, repellat expedita velit incidunt laborum consequuntur iure
           quisquam blanditiis. Voluptate.
