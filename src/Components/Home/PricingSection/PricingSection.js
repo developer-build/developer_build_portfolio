@@ -3,7 +3,7 @@ import React from "react";
 
 const PricingSection = () => {
   return (
-    <div className="bg-[white]/60 py-24 lg:px-8 px-0">
+    <div className="bg-[white]/60 py-24 lg:px-8 px-0 custom_container">
 <div className="custom_container">
       <header className="text-center mb-16">
       <h1 className="text-[#124265] font-bold text-3xl mt-4 uppercase">Pricing</h1>
