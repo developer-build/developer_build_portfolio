@@ -19,7 +19,7 @@ const FAQsection = () => {
             <h1 className="text-3xl text-accent font-semibold">
               FREQUENTLY ASKED QUESTIONS
             </h1>
-            <p className="py-5 text-secondary">
+            <p className="py-5 w-4/6 mx-auto text-secondary">
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
               quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
