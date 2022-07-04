@@ -11,3 +11,13 @@
     border-top: none;
 
 }
+
+.blog:hover .blog-container {
+    border: 2px dashed #2487ce;
+    border-top: none;
+}
+
+.blog:hover .title {
+    color: #2487ce;
+
+}
