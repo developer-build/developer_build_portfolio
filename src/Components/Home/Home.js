@@ -1,4 +1,5 @@
 import React from "react";
+
 import AboutSection from "./AboutSection/AboutSection";
 import ContactSection from "./ContactSection/ContactSection";
 import Counting from "./Counting/Counting";
@@ -12,6 +13,7 @@ import TeamSection from "./TeamSection/TeamSection";
 const Home = () => {
   return (
     <>
+
       <HeroSection />
       <Counting/>
       <AboutSection />
