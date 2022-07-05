@@ -6,35 +6,38 @@ const HeroSection = () => {
     {
       _id: "1",
       icon: "fa-solid fa-layer-group",
-      title: "Lorem Ipsum",
+      title: "Experience ",
       description:
-        "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+        "Our team has been working for marketplace and different company for 1 year",
     },
     {
       _id: "2",
-      icon: "fa-solid fa-layer-group",
-      title: "Lorem Ipsum",
+      icon: "fa-solid fa-cubes",
+
+      title: "Skils",
       description:
-        "Voluptatum delenit atque corrupti quos dolores et quas molestias excepturi",
+        "We have skilled developers on both front and back, who can take on any challenge",
     },
     {
       _id: "3",
-      icon: "fa-solid fa-layer-group",
-      title: "Lorem Ipsum",
+      icon: "fa-solid fa-people-group",
+
+      title: "Team Employer",
       description:
-        "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+        "10 members are working actively, who are ready to work both front and back end",
     },
     {
       _id: "4",
-      icon: "fa-solid fa-layer-group",
-      title: "Lorem Ipsum",
+      icon: "fa-solid fa-holly-berry",
+
+      title: "Benefited",
       description:
-        "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
+        "If you work with us, we will help you in any way at the end of the work",
     },
   ];
   return (
     <section className="hero_section flex justify-center">
-      <div className="hero_container w-10/12 m-auto">
+      <div className="hero_container custom_container m-auto">
         <div className="grid justify-center lg:w-10/12 xl:w-8/12  mx-auto">
           <div className="text-center xl:col-span-7  lg:col-span-9">
             <h1>Welcome to the web Development Agency</h1>
