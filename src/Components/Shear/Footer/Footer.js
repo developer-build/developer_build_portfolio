@@ -8,9 +8,9 @@ const Footer = () => {
       <footer class="footer p-10 bg-white text-base-content mt-16">
         <div>
           <a className="text-2xl text-gray-700 font-semibold mb-2">OnePage</a>
-          <a class="text-gray-500">A108 Adam Street</a>
-          <a class="text-gray-500">New York, NY 535022</a>
-          <a class="text-gray-500">United States</a>
+          <a class="text-gray-500">1216 By Dhaka</a>
+          <a class="text-gray-500">Mirpur, Dhaka 1216</a>
+          <a class="text-gray-500">Bangladesh</a>
           <a></a>
           <a></a>
           <a class=" text-gray-500">
