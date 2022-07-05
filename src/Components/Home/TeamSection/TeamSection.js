@@ -16,7 +16,7 @@ const TeamSection = () => {
         </p>
         <div className="lg:pb-[100px] pb-0 md:pb-[0px] mt-5 text-center ">
           {" "}
-          <progress class="progress mx-auto w-56 progress-primary bg-black "></progress>
+          <progress className="progress mx-auto w-56 progress-primary bg-black "></progress>
         </div>
         <div className="relative grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 lg:pb-[100px] md:pb-0 pb-[0px] gap-4 ">
           {TeamData.map((team, i) => (

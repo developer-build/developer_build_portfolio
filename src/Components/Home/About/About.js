@@ -3,15 +3,15 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="w-10/12 mx-auto my-10">
-      <h1 className="text-4xl text-center uppercase mb-4 text-[#124265]">
+    <div className="w-10/12 mx-auto my-20">
+      <h1 className="text-4xl font-bold text-center uppercase mb-4 text-[#124265]">
         About us
       </h1>
-      <p className="text-center text-gray-500 mb-6">
+      <p className="text-center text-gray-400 mb-7">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
         aliquid fuga eum quidem.
       </p>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
         <div>
           <p className="text-gray-700 mb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -20,16 +20,25 @@ const About = () => {
 
           <ul>
             <li className="text-gray-700">
-              <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-              aliquip ex ea commodo consequat
+              <i className="fa-solid fa-check-double text-blue-500"></i>
+              <span className="ml-1">
+                {" "}
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </span>
             </li>
             <li className="text-gray-700 my-3">
-              <i class="ri-check-double-line"></i> Duis aute irure dolor in
-              reprehenderit in voluptate velit
+              <i className="fa-solid fa-check-double text-blue-500"></i>
+              <span className="ml-1">
+                {" "}
+                Duis aute irure dolor in reprehenderit in voluptate velit
+              </span>
             </li>
             <li className="text-gray-700">
-              <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-              aliquip ex ea commodo consequat
+              <i className="fa-solid fa-check-double text-blue-500"></i>
+              <span className="ml-1">
+                {" "}
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </span>
             </li>
           </ul>
         </div>
