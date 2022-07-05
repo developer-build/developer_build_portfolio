@@ -105,12 +105,13 @@ const Footer = () => {
         <div class="md:place-self-center md:justify-self-end">
           <div class="grid grid-flow-col gap-4">
             <div className="bg-green-500 h-12 w-12 rounded-xl text-center">
-              <div className="mt-2">
+              <div className="mt-1.5">
                 <a
+                  className="text-white font-bold text-3xl"
                   target="blank"
                   href="https://www.fiverr.com/popy_marketer?public_mode=true"
                 >
-                  <i class="fa-brands fa-facebook-f text-3xl text-white"></i>
+                  fi
                 </a>
               </div>
             </div>
@@ -129,6 +130,17 @@ const Footer = () => {
               <div className="mt-2">
                 <a target="blank" href="https://github.com/developer-build">
                   <i class="fa-brands fa-github text-3xl text-white"></i>
+                </a>
+              </div>
+            </div>
+            <div className="bg-green-500 h-12 w-12 rounded-xl text-center">
+              <div className="mt-1.5">
+                <a
+                  className="text-white font-bold text-2xl"
+                  target="blank"
+                  href="https://www.upwork.com/freelancers/~01ba628056760f5bc6?fbclid=IwAR0vAJeLZyxncXt_IJda-TJzX3foiIP0VaTfY8hEmN9pyf84AvP0Rwb4d7k"
+                >
+                  Up
                 </a>
               </div>
             </div>
