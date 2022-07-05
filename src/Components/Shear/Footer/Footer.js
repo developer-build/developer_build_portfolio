@@ -104,24 +104,30 @@ const Footer = () => {
         </div>
         <div class="md:place-self-center md:justify-self-end">
           <div class="grid grid-flow-col gap-4">
-            <div className="bg-blue-500 h-12 w-12 rounded-xl text-center">
+            <div className="bg-green-500 h-12 w-12 rounded-xl text-center">
               <div className="mt-2">
-                <a href="">
+                <a
+                  target="blank"
+                  href="https://www.fiverr.com/popy_marketer?public_mode=true"
+                >
                   <i class="fa-brands fa-facebook-f text-3xl text-white"></i>
                 </a>
               </div>
             </div>
             <div className="bg-blue-500 h-12 w-12 rounded-xl text-center">
               <div className="mt-2">
-                <a href="">
+                <a
+                  target="blank"
+                  href="https://www.linkedin.com/in/developer-build/"
+                >
                   <i class="fa-brands fa-linkedin-in text-3xl text-white"></i>
                 </a>
               </div>
             </div>
 
-            <div className="bg-blue-500 h-12 w-12 rounded-xl text-center">
+            <div className="bg-gray-700 h-12 w-12 rounded-xl text-center">
               <div className="mt-2">
-                <a href="">
+                <a target="blank" href="https://github.com/developer-build">
                   <i class="fa-brands fa-github text-3xl text-white"></i>
                 </a>
               </div>
