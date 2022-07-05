@@ -36,29 +36,29 @@ const AboutSection = () => {
         </p>
         <ul>
           <li>
-            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            <i className="fa-solid text-primary mt-1 fa-check-double"></i>
             Front End Developer
           </li>
           <li>
-            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            <i className="fa-solid text-primary mt-1 fa-check-double"></i>
             Back End Developer
           </li>
           <li>
             {" "}
-            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            <i className="fa-solid text-primary mt-1 fa-check-double"></i>
             Full Stack Developer
           </li>
           <li>
             {" "}
-            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            <i className="fa-solid text-primary mt-1 fa-check-double"></i>
             Project Management Development
           </li>
           <li>
-            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            <i className="fa-solid text-primary mt-1 fa-check-double"></i>
             UI UX Designer
           </li>
           <li>
-            <i class="fa-solid text-primary mt-1  fa-check-double"></i>
+            <i className="fa-solid text-primary mt-1  fa-check-double"></i>
             Digital Marketing
           </li>
         </ul>

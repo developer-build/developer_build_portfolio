@@ -30,7 +30,7 @@ const Services = () => {
                 className="lg:w-[360px]  mx-auto cursor-pointer "
               >
                 <div class={`icon-box ${service?.color}`}>
-                  <div class="icon">
+                  <div className="icon">
                     <svg
                       width="100"
                       height="100"
