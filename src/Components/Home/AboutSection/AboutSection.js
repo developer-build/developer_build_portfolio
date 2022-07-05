@@ -27,7 +27,7 @@ const AboutSection = () => {
 
       {/* text part */}
       <div className="lg:w-1/2 w-full  flex flex-col gap-5 about-content">
-        <h3 className="mb-0">
+        <h3 className="mb-0 capitalize">
           How we work, How our members manage team projects and details about us
         </h3>
         <p className=" text-gray-500 italic m-0 ">
@@ -36,60 +36,39 @@ const AboutSection = () => {
         </p>
         <ul>
           <li>
-            {" "}
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2716/2716299.png"
-              alt=""
-            />{" "}
-            UI/UI design
+            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            Front End Developer
+          </li>
+          <li>
+            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            Back End Developer
           </li>
           <li>
             {" "}
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2716/2716299.png"
-              alt=""
-            />{" "}
-            Web Development
+            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            Full Stack Developer
           </li>
           <li>
             {" "}
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2716/2716299.png"
-              alt=""
-            />{" "}
-            Pixel-perfect Design
+            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            Project Management Development
           </li>
           <li>
-            {" "}
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2716/2716299.png"
-              alt=""
-            />{" "}
+            <i class="fa-solid text-primary mt-1 fa-check-double"></i>
+            UI UX Designer
+          </li>
+          <li>
+            <i class="fa-solid text-primary mt-1  fa-check-double"></i>
             Digital Marketing
           </li>
-          <li>
-            {" "}
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2716/2716299.png"
-              alt=""
-            />{" "}
-            On-time delivery
-          </li>
-          <li>
-            {" "}
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2716/2716299.png"
-              alt=""
-            />{" "}
-            100% satisfaction
-          </li>
         </ul>
-        <p>
+        <p className="text-gray-600 text-justify">
           {" "}
-          We started our journey from 2020. We make <b>React</b> based frontend
-          and <b>Node</b> based backend. We are experienced in HTML5, CSS,
-          Bootstrap, Tailwind, JavaScript, React, DaisyUI, NodeJS, ExpressJS,
-          MongoDB, NextJS, TypeScript, Stripe and more.
+          We have experienced developers working in different companies and
+          marketplaces. Our team does very good research on a project, and how
+          the project can be done well. We have worked for many companies now,
+          everyone has praised us. Our team is ready to take on any programming
+          challenge
         </p>
       </div>
     </section>
