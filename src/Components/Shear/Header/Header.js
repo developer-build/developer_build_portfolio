@@ -1,6 +1,9 @@
 import React from "react";
 import "./header.css";
 import logo from "../../../Assets/Images/nav-footer/logo.png";
+
+import { Link } from "react-scroll";
+
 const Header = () => {
   return (
     <div>
@@ -44,14 +47,20 @@ const Header = () => {
                 <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
                   <ul className="px-6 pt-32 text-gray-700 space-y-8 md:px-6 lg:space-y-0 lg:flex xl:space-x-12 lg:pt-0">
                     <li>
-                      <span className="transition-all duration-300  cursor-pointer text-accent hover:text-primary">
+                      <Link
+                        to="home"
+                        className="transition-all duration-300  cursor-pointer text-accent hover:text-primary"
+                      >
                         Home
-                      </span>
+                      </Link>
                     </li>
                     <li>
-                      <span className="transition-all duration-300 cursor-pointer text-accent hover:text-primary">
+                      <Link
+                        to="services"
+                        className="transition-all duration-300 cursor-pointer text-accent hover:text-primary"
+                      >
                         Services
-                      </span>
+                      </Link>
                     </li>
                     <li>
                       <span className="transition-all duration-300 cursor-pointer text-accent hover:text-primary">
@@ -59,14 +68,20 @@ const Header = () => {
                       </span>
                     </li>
                     <li>
-                      <span className="transition-all duration-300 cursor-pointer text-accent hover:text-primary">
+                      <Link
+                        to="about"
+                        className="transition-all duration-300 cursor-pointer text-accent hover:text-primary"
+                      >
                         About
-                      </span>
+                      </Link>
                     </li>
                     <li>
-                      <span className="transition-all duration-300 cursor-pointer text-accent hover:text-primary">
+                      <Link
+                        to="contact"
+                        className="transition-all duration-300 cursor-pointer text-accent hover:text-primary"
+                      >
                         Contact
-                      </span>
+                      </Link>
                     </li>
                   </ul>
 
