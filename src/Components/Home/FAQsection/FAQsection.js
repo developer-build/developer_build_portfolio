@@ -27,7 +27,7 @@ const FAQsection = () => {
             </p>
           </div>
 
-        {/* According */}
+          {/* According */}
           <div className="flex justify-center pt-5">
             <div className="lg:w-10/12">
               <Accordion>
