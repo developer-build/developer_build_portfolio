@@ -1,6 +1,8 @@
 import React from 'react';
 import { BlogData } from './FakeData/BlogData';
 import './BlogSection.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faComments, faUserEdit } from '@fortawesome/free-solid-svg-icons';
 
 const BlogSection = () => {
     return (
@@ -23,8 +25,8 @@ const BlogSection = () => {
                         </div>
                         <div className='blog-container px-[40px] pt-[34px] pb-[42px]'>
                             <div className='flex justify-between items-center'>
-                                <p className='text-[15px] font-[600] text-[#888888]'><span className='text-primary'>icon</span> By Admins</p>
-                                <p className='text-[15px] font-[600] text-[#888888]'><span className='text-primary'>icon</span> {blog.comments} Comments</p>
+                                <p className='text-[15px] font-[600] text-[#888888]'><FontAwesomeIcon className="text-primary" icon={faUserEdit}></FontAwesomeIcon> By Admins</p>
+                                <p className='text-[15px] font-[600] text-[#888888]'><FontAwesomeIcon className="text-primary" icon={faComments} /> {blog.comments} Comments</p>
                             </div>
                             <p className='title my-5 text-[24px] text-[#2c3957] font-bold'>{blog.title}</p>
                             <p className='text-[15px] text-[#666666] '>{blog.des}</p>
