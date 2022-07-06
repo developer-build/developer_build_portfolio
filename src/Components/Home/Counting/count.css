@@ -1,0 +1,17 @@
+.count-title {
+  font-size: 48px;
+  line-height: 48px;
+  display: block;
+  font-weight: 700;
+  color: #124265;
+  margin-left: 80px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.count-para {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e6ca6;
+}
