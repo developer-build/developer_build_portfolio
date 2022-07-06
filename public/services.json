@@ -1,0 +1,47 @@
+[
+  {
+    "icon": "fa-object-group",
+    "_id": 1,
+    "color": "iconbox-orange",
+    "title": "Front End",
+    "des": "Our team has experience working with the front end of any framework or library."
+  },
+  {
+    "icon": "fa-server",
+    "_id": 2,
+    "title": "Back End",
+    "color": "iconbox-blue",
+    "des": "Our Back & Developer Skilled Node JS, PHP Language, Laravel and Express js  Expert"
+  },
+
+  {
+    "icon": " fa-layer-group",
+    "_id": 3,
+    "color": "iconbox-pink",
+    "title": "Mern Stack",
+    "des": "We have experienced developers on the mern stack who have done client projects in different places"
+  },
+
+  {
+    "icon": "fa-diagram-project",
+    "_id": 4,
+    "color": "   iconbox-yellow ",
+    "title": "Project Management",
+    "des": "We manage the websites and project of different companies manually"
+  },
+  {
+    "icon": "fa-bug",
+
+    "color": "    iconbox-red",
+    "_id": 5,
+    "title": "Bug Fixing",
+    "des": "If there is any bug in your website, we fix it. We have our skilled developers on bug fix"
+  },
+  {
+    "icon": "fa-code",
+    "_id": 1,
+    "color": "    iconbox-teal",
+    "title": "Full Stack",
+    "des": "We have experience in the front end and back end of your website"
+  }
+]

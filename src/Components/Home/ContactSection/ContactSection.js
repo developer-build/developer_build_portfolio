@@ -52,7 +52,7 @@ const ContactSection = () => {
                 <FontAwesomeIcon className="text-2xl text-primary" icon={faLocationDot} />
               </div>
               <div>
-                <h1 className="text-sky-800 font-semibold text-2xl">Location: </h1>
+                <h1 className="text-primary font-semibold text-2xl">Location: </h1>
                 <p className="text-primary">Dhaka, Bangladesh</p>
               </div>
             </div>
@@ -62,7 +62,7 @@ const ContactSection = () => {
                 <FontAwesomeIcon className="text-xl text-primary" icon={faEnvelope} />
               </div>
               <div>
-                <h1 className="text-sky-800 font-semibold text-2xl">Email:</h1>
+                <h1 className="text-primary font-semibold text-2xl">Email:</h1>
                 <p className="text-primary">developerbuild62@gmail.com</p>
               </div>
             </div>
@@ -71,7 +71,7 @@ const ContactSection = () => {
                 <FontAwesomeIcon className="text-xl text-primary" icon={faPhone} />
               </div>
               <div>
-                <h1 className="text-sky-800 font-semibold text-2xl">Call:</h1>
+                <h1 className="text-primary font-semibold text-2xl">Call:</h1>
                 <p className="text-primary">Mirpur, Dhaka 1216 Bangladesh</p>
               </div>
             </div>

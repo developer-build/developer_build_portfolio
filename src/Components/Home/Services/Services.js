@@ -1,84 +1,59 @@
-import React, { Fragment } from "react";
-import Brand from "./Brand";
+import React, { Fragment, useEffect, useState } from "react";
+
 import "./Services.css";
 const Services = () => {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    fetch("services.json")
+      .then((res) => res.json())
+      .then((data) => setServices(data));
+  }, []);
   return (
     <Fragment>
-      <Brand />
       <div className="bg-[#F8FBFE] py-9">
         <div className="servies-aria custom_container ">
           <div>
             <div className="conent-aria text-center">
-              <h1 className="text-[#124265] font-bold text-3xl mt-4 uppercase">Services</h1>
+              <h1 className="text-[#124265] pt-5 font-bold text-3xl mt-4 uppercase">
+                Services
+              </h1>
               <p className="mt-4 w-[90%] mx-auto text-[#919191]">
                 {" "}
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-                quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.{" "}
+                We strive to provide all kinds of development-related services.
               </p>
             </div>
           </div>
-          <div className="services-card-one pt-9">
-            <div className="grid grid-cols-1 lg:grid-cols-3 mt-7 ">
-              <div className=" services_card card lg:max-w-lg mx-3 my-4 bg-base-100 shadow-xl py-8">
-                <figure className="px-10 pt-10">
-                  <i id="icons-line" class="lni lni-service"></i>
-                </figure>
-                <div className="card-body items-center text-center">
-                  <h2 className="card-title text-[#124265] text-1xl">Lorem Ipsum</h2>
-                  <p className="text-[#444444]">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
+          <section className="grid px-5 lg:grid-cols-3 md:grid-cols-2  py-10 services gap-6">
+            {services.map((service) => (
+              <div
+                key={service?._id}
+                className="lg:w-[360px]  mx-auto cursor-pointer "
+              >
+                <div class={`icon-box ${service?.color}`}>
+                  <div className="icon">
+                    <svg
+                      width="100"
+                      height="100"
+                      viewBox="0 0 600 600"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke="none"
+                        stroke-width="0"
+                        fill="#f5f5f5"
+                        d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"
+                      ></path>
+                    </svg>
+                    <i class={`fa-solid text-primary ${service?.icon}`}></i>
+                  </div>
+                  <h4>
+                    <a href="!#">{service?.title}</a>
+                  </h4>
+                  <p className="text-gray-500">{service?.des}</p>
                 </div>
               </div>
-              <div className=" services_card card lg:max-w-lg mx-3 my-4 bg-base-100 shadow-xl py-8">
-                <figure className="px-10 pt-10">
-                  <i id="icons-line" class="lni lni-service"></i>
-                </figure>
-                <div className="card-body items-center text-center">
-                  <h2 className="card-title text-[#124265] text-1xl">Lorem Ipsum</h2>
-                  <p className="text-[#444444]">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
-                </div>
-              </div>
-              <div className=" services_card card lg:max-w-lg mx-3 my-4 bg-base-100 shadow-xl py-8">
-                <figure className="px-10 pt-10">
-                  <i id="icons-line" class="lni lni-service"></i>
-                </figure>
-                <div className="card-body items-center text-center">
-                  <h2 className="card-title text-[#124265] text-1xl">Lorem Ipsum</h2>
-                  <p className="text-[#444444]">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="services-card-two">
-            <div className="grid grid-cols-1 lg:grid-cols-3 mt-7">
-              <div className=" services_card card lg:max-w-lg mx-3 my-4 bg-base-100 shadow-xl py-8">
-                <figure className="px-10 pt-10">
-                  <i id="icons-line" class="lni lni-service"></i>
-                </figure>
-                <div className="card-body items-center text-center">
-                  <h2 className="card-title text-[#124265] text-1xl">Lorem Ipsum</h2>
-                  <p className="text-[#444444]">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
-                </div>
-              </div>
-              <div className=" services_card card lg:max-w-lg mx-3 my-4 bg-base-100 shadow-xl py-8">
-                <figure className="px-10 pt-10">
-                  <i id="icons-line" class="lni lni-service"></i>
-                </figure>
-                <div className="card-body items-center text-center">
-                  <h2 className="card-title text-[#124265] text-1xl">Lorem Ipsum</h2>
-                  <p className="text-[#444444]">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
-                </div>
-              </div>
-              <div className=" services_card card lg:max-w-lg mx-3 my-4 bg-base-100 shadow-xl py-8">
-                <figure className="px-10 pt-10">
-                  <i id="icons-line" class="lni lni-service"></i>
-                </figure>
-                <div className="card-body items-center text-center">
-                  <h2 className="card-title text-[#124265] text-1xl">Lorem Ipsum</h2>
-                  <p className="text-[#444444]">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
-                </div>
-              </div>
-            </div>
-          </div>
+            ))}
+          </section>
         </div>
       </div>
     </Fragment>
