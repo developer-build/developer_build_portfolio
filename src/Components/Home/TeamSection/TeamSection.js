@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "./Team.css";
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const TeamSection = () => {
   return (
@@ -33,7 +33,7 @@ const TeamSection = () => {
               spaceBetween={25}
               slidesPerGroup={3}
               loop={true}
-              centerSlide={"true"}
+              centerslide={"true"}
               fade={"true"}
               grabCursor={"true"}
               pagination={{
@@ -58,25 +58,25 @@ const TeamSection = () => {
               }}
             >
               {TeamData.map((team) => (
-                <SwiperSlide>
+                <SwiperSlide key={team?.id}>
                   <div className="team_member w-[320px] mb-10">
                     <div className="img_content">
-                      <span class="overlay"></span>
+                      <span className="overlay"></span>
                       <div className="team_member_img">
                         <img src={team?.img} alt="" />
                       </div>
                     </div>
-                    <div class="team-content">
-                      <h2 class="name">{team?.name}</h2>
-                      <p class="description">{team.des}</p>
+                    <div className="team-content">
+                      <h2 className="name">{team?.name}</h2>
+                      <p className="description">{team.des}</p>
 
-                      {/* <button class="button">View More</button> */}
+                      {/* <button  className="button">View More</button> */}
                       <div className="social_icon">
-                        <i class="fa-brands fa-facebook-square"></i>
-                        <i class="fa-brands fa-twitter-square"></i>
-                        <i class="fa-brands fa-instagram-square"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-github-square"></i>
+                        <i className="fa-brands fa-facebook-square"></i>
+                        <i className="fa-brands fa-twitter-square"></i>
+                        <i className="fa-brands fa-instagram-square"></i>
+                        <i className="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-github-square"></i>
                       </div>
                     </div>
                   </div>
