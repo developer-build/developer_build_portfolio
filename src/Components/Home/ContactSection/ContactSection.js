@@ -8,6 +8,7 @@ import {
 // import './ContactSection.css';
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
+import GoogleMap from "./GoogleMap/GoogleMap";
 
 const ContactSection = () => {
   const form = useRef();
@@ -61,7 +62,9 @@ const ContactSection = () => {
 
         <div className="mx-3">
           <div className="mx-auto custom_container m-3">
-            <div className="w-full"></div>
+            <div className="w-full">
+              <GoogleMap />
+            </div>
           </div>
         </div>
 
