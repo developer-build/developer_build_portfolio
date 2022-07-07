@@ -27,9 +27,9 @@ const FAQsection = () => {
         <Accordion open={open === 1} onClick={() => handleOpen(1)}>
           <AccordionHeader>
             <span className="bg-white hover:text-blue-500 text-md">
-              <i class="fa-solid fa-circle-question text-blue-400"></i> What can
-              I do with Material Tailwind?{" "}
-              <i class="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
+              <i className="fa-solid fa-circle-question text-blue-400"></i> What
+              can I do with Material Tailwind?{" "}
+              <i className="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
             </span>{" "}
           </AccordionHeader>
           <AccordionBody>
@@ -41,9 +41,9 @@ const FAQsection = () => {
         <Accordion open={open === 2} onClick={() => handleOpen(2)}>
           <AccordionHeader>
             <span className="bg-white hover:text-blue-500 text-md">
-              <i class="fa-solid fa-circle-question text-blue-400"></i> What can
-              I do with Material Tailwind?{" "}
-              <i class="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
+              <i className="fa-solid fa-circle-question text-blue-400"></i> What
+              can I do with Material Tailwind?{" "}
+              <i className="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
             </span>{" "}
           </AccordionHeader>
           <AccordionBody>
@@ -55,9 +55,9 @@ const FAQsection = () => {
         <Accordion open={open === 3} onClick={() => handleOpen(3)}>
           <AccordionHeader>
             <span className="bg-white hover:text-blue-500 text-md">
-              <i class="fa-solid fa-circle-question text-blue-400"></i> What can
-              I do with Material Tailwind?{" "}
-              <i class="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
+              <i className="fa-solid fa-circle-question text-blue-400"></i> What
+              can I do with Material Tailwind?{" "}
+              <i className="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
             </span>{" "}
           </AccordionHeader>
           <AccordionBody>
@@ -69,9 +69,9 @@ const FAQsection = () => {
         <Accordion open={open === 4} onClick={() => handleOpen(4)}>
           <AccordionHeader>
             <span className="bg-white hover:text-blue-500 text-md">
-              <i class="fa-solid fa-circle-question text-blue-400"></i> What can
-              I do with Material Tailwind?{" "}
-              <i class="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
+              <i className="fa-solid fa-circle-question text-blue-400"></i> What
+              can I do with Material Tailwind?{" "}
+              <i className="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
             </span>{" "}
           </AccordionHeader>
           <AccordionBody>
@@ -83,9 +83,9 @@ const FAQsection = () => {
         <Accordion open={open === 5} onClick={() => handleOpen(5)}>
           <AccordionHeader>
             <span className="bg-white hover:text-blue-500 text-md">
-              <i class="fa-solid fa-circle-question text-blue-400"></i> What can
-              I do with Material Tailwind?{" "}
-              <i class="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
+              <i className="fa-solid fa-circle-question text-blue-400"></i> What
+              can I do with Material Tailwind?{" "}
+              <i className="fa-solid fa-angle-down ml-48 hover:text-blue-500"></i>
             </span>{" "}
           </AccordionHeader>
           <AccordionBody>

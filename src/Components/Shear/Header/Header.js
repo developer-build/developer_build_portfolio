@@ -26,12 +26,12 @@ const Header = () => {
                 hidden
               />
               <label
-                for="hamburger"
+                htmlFor="hamburger"
                 className="peer-checked:hamburger block relative z-30 p-6 -mr-6 cursor-pointer lg:hidden"
               >
                 <div
                   aria-hidden="true"
-                  className="m-auto h-0.5 w-8 rounded bg-gradient-to-r from-primary to-cyan-500  transition duration-300"
+                  className="m-auto h-0.5 w-8 rounded bg-gradient-to-r from-primary to-blue-500  transition duration-300"
                 ></div>
                 <div
                   aria-hidden="true"

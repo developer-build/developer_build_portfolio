@@ -18,109 +18,121 @@ const PricingSection = () => {
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-end justify-center">
-          <div class="our-package-card p-[24px] rounded-[8px]">
-            <h3 class="font-bold pb-[8px] text-[32px] text-accent ">$100</h3>
-            <h4 class="font-bold text-[24px] text-black ">Basic Services</h4>
+          <div className="our-package-card p-[24px] rounded-[8px]">
+            <h3 className="font-bold pb-[8px] text-[32px] text-accent ">
+              $100
+            </h3>
+            <h4 className="font-bold text-[24px] text-black ">
+              Basic Services
+            </h4>
             <p className="pt-4 pb-3">
               Single page application. The Home page will have 10+ sections and
               5+ pages
             </p>
-            <div class="our-package-list">
+            <div className="our-package-list">
               <p className="pb-3">
-                <i class="fas fa-check"></i>Responsive design
+                <i className="fas fa-check"></i>Responsive design
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>Design customization
+                <i className="fas fa-check"></i>Design customization
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>Content upload
+                <i className="fas fa-check"></i>Content upload
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>Include source code
+                <i className="fas fa-check"></i>Include source code
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>2 Days Delivery
+                <i className="fas fa-check"></i>2 Days Delivery
               </p>
             </div>
-            <button class="our-package-btn">Book Now</button>
+            <button className="our-package-btn">Book Now</button>
           </div>
-          <div class="our-package-card p-[24px] rounded-[8px]">
-            <h3 class="font-bold pb-[8px] text-[32px] text-accent ">$350</h3>
-            <h4 class="font-bold text-[24px] text-black ">Standard Services</h4>
+          <div className="our-package-card p-[24px] rounded-[8px]">
+            <h3 className="font-bold pb-[8px] text-[32px] text-accent ">
+              $350
+            </h3>
+            <h4 className="font-bold text-[24px] text-black ">
+              Standard Services
+            </h4>
             <p className="pt-4 pb-3">
               Completed front end project, design exactly according to your
               Figma file
             </p>
-            <div class="our-package-list">
+            <div className="our-package-list">
               <p className="pb-3">
-                <i class="fas fa-check"></i>Responsive design
+                <i className="fas fa-check"></i>Responsive design
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i> API integration
+                <i className="fas fa-check"></i> API integration
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>Design customization
+                <i className="fas fa-check"></i>Design customization
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>SEO friendly code
+                <i className="fas fa-check"></i>SEO friendly code
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>7 Days Delivery
+                <i className="fas fa-check"></i>7 Days Delivery
               </p>
             </div>
-            <button class="our-package-btn">Book Now</button>
+            <button className="our-package-btn">Book Now</button>
           </div>
-          <div class="our-special-package p-[24px] text-white rounded-[8px]">
-            <h4 class="font-bold pb-3  text-[32px] text-[18px]">$600</h4>
-            <h4 class="font-bold pb-2 h3 text-[24px]">Premium Services</h4>
-            <p class="text-white pt-4 pb-3">
+          <div className="our-special-package p-[24px] text-white rounded-[8px]">
+            <h4 className="font-bold pb-3  text-[32px] text-[18px]">$600</h4>
+            <h4 className="font-bold pb-2 h3 text-[24px]">Premium Services</h4>
+            <p className="text-white pt-4 pb-3">
               The full-stack project: E-commerce, Warehouse, Education,
               Hospital, etc.
             </p>
-            <div class="our-package-list">
-              <p class="text-white pb-3">
-                <i class="fas fa-check"></i>Responsive design
+            <div className="our-package-list">
+              <p className="text-white pb-3">
+                <i className="fas fa-check"></i>Responsive design
               </p>
-              <p class="text-white pb-3">
-                <i class="fas fa-check"></i>Admin and User panel
+              <p className="text-white pb-3">
+                <i className="fas fa-check"></i>Admin and User panel
               </p>
-              <p class="text-white pb-3">
-                <i class="fas fa-check"></i>Bug fixing
+              <p className="text-white pb-3">
+                <i className="fas fa-check"></i>Bug fixing
               </p>
-              <p class="text-white pb-3">
-                <i class="fas fa-check"></i>10 days free support
+              <p className="text-white pb-3">
+                <i className="fas fa-check"></i>10 days free support
               </p>
-              <p class="text-white pb-3">
-                <i class="fas fa-check"></i>15 Days Delivery{" "}
+              <p className="text-white pb-3">
+                <i className="fas fa-check"></i>15 Days Delivery{" "}
               </p>
             </div>
-            <button class="our-package-btn  px-5">Book Now</button>
-            <span class="best-sell">Best Sell</span>
+            <button className="our-package-btn  px-5">Book Now</button>
+            <span className="best-sell">Best Sell</span>
           </div>
-          <div class="our-package-card p-[24px] rounded-[8px]">
-            <h3 class="font-bold pb-[8px] text-[32px] text-accent ">$1500</h3>
-            <h4 class="font-bold text-[24px] text-black ">Advance Services </h4>
+          <div className="our-package-card p-[24px] rounded-[8px]">
+            <h3 className="font-bold pb-[8px] text-[32px] text-accent ">
+              $1500
+            </h3>
+            <h4 className="font-bold text-[24px] text-black ">
+              Advance Services{" "}
+            </h4>
             <p className="pt-4 pb-3">
               I will manage an entire site or your project for you for 1 month
             </p>
-            <div class="our-package-list">
+            <div className="our-package-list">
               <p className="pb-3">
-                <i class="fas fa-check"></i>Adding new features
+                <i className="fas fa-check"></i>Adding new features
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>24 hour website monitor
+                <i className="fas fa-check"></i>24 hour website monitor
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>Bug fixing
+                <i className="fas fa-check"></i>Bug fixing
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>12 days free support
+                <i className="fas fa-check"></i>12 days free support
               </p>
               <p className="pb-3">
-                <i class="fas fa-check"></i>30 Days Delivery
+                <i className="fas fa-check"></i>30 Days Delivery
               </p>
             </div>
-            <button class="our-package-btn">Book Now</button>
+            <button className="our-package-btn">Book Now</button>
           </div>
         </div>
       </div>

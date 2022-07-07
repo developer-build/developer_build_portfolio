@@ -1,154 +1,141 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "../../../Assets/Images/logo.png";
+
+import logo from "../../../Assets/Images/nav-footer/logo.png";
+
+import "./footer.css";
 
 const Footer = () => {
   return (
-    <>
-      <footer className="footer p-10 bg-white text-base-content mt-16">
-        <div>
-          <a className="text-2xl text-gray-700 font-semibold mb-2">OnePage</a>
-          <a className="text-gray-500">1216 By Dhaka</a>
-          <a className="text-gray-500">Mirpur, Dhaka 1216</a>
-          <a className="text-gray-500">Bangladesh</a>
-          <a></a>
-          <a></a>
-          <a className=" text-gray-500">
-            {" "}
-            <span className="font-semibold text-xl">Phone:</span> 01998839126
-          </a>
-          <a className="text-gray-500">
-            <span className="font-semibold text-xl">Email:</span>{" "}
-            developerbuild62@gmail.com
-          </a>
-        </div>
-        <div>
-          <a className="text-2xl text-gray-700 font-semibold mb-2">
-            Useful Links
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            Home
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            About us
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            Services
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            Team of Service
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            privacy policy
-          </a>
-        </div>
-        <div>
-          <a className="text-2xl text-gray-700 font-semibold mb-2">
-            Our Services
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i> Web
-            Design
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i> Web
-            Development
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            Product Management
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            Marketing
-          </a>
-          <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
-            <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
-            Graphic Design
-          </a>
-        </div>
-        <div>
-          <span className="text-gray-700 text-2xl font-semibold">
-            Join Our Newsletter
-          </span>
-          <div className="form-control w-80">
-            <label className="label mb-5">
-              <span className="label-text text-gray-500">
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </span>
-            </label>
-            <div className="relative">
-              <input
-                type="text"
-                className="input input-bordered border-blue-300 w-full pr-16"
-              />
-              <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
-                Subscribe
-              </button>
+    <section id="footer">
+      <footer className="footer p-10 bg-white  text-base-content mt-20">
+        <div className="footer text-base-content custom_container">
+          <div>
+            <a className="text-2xl text-gray-500 font-normal mb-2">
+              Developer Build
+            </a>
+            <a className="text-gray-400">Polashbari, Ashulia</a>
+            <a className="text-gray-400">Savar, Dhaka-1344</a>
+            <a className="text-gray-400">Bangladesh</a>
+
+            <a className=" text-gray-400 pt-5">
+              {" "}
+              <span className="font-bold text-md text-gray-500">
+                Phone:
+              </span>{" "}
+              +8801998839126
+            </a>
+            <a className="text-gray-400">
+              <span className="font-bold text-md text-gray-500">Email:</span>{" "}
+              developerbuild62@gmail.com
+            </a>
+          </div>
+          <div>
+            <a className="text-xl text-gray-700 font-semibold mb-2">
+              Useful Links
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Home
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              About us
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Services
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Team of Service
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              privacy policy
+            </a>
+          </div>
+          <div>
+            <a className="text-xl text-gray-700 font-semibold mb-2">
+              Our Services
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Web Design
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Web Development
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Product Management
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Marketing
+            </a>
+            <a className="text-gray-500 hover:text-blue-500 cursor-pointer">
+              <i className="fa-solid fa-chevron-right text-blue-500 mr-1"></i>{" "}
+              Graphic Design
+            </a>
+          </div>
+          <div>
+            <span className="text-gray-700 text-xl font-semibold">
+              Join Our Newsletter
+            </span>
+            <div className="form-control ">
+              <label className="label mb-5">
+                <span className="label-text text-gray-500">
+                  Stay with us by subscribing to get our daily newsletter. thank
+                  you
+                </span>
+              </label>
+              <div className="relative">
+                <input
+                  type="text"
+                  className="input input-bordered border-blue-300 w-full pr-16"
+                />
+                <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
+                  Subscribe
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </footer>
-      <footer className="footer px-10 py-4 border-t text-black border-gray-200">
+      <footer className="footer px-10 py-8  text-black ">
         <div className="items-center grid-flow-col">
-          <img className="h-20 w-20" src={logo} alt="" />
-          <p>
-            © Copyright OnePage. All Rights Reserved <br />
+          <img className="h-[50px] w-[50px]" src={logo} alt="" />
+          <p className="text-gray-500">
+            © Copyright <span className="font-bold">Developer Build.</span> All
+            Rights Reserved <br />
             Designed by <span className="text-blue-400">Developer-Build</span>
           </p>
         </div>
         <div className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-4">
-            <div className="bg-green-500 h-12 w-12 rounded-xl text-center">
-              <div className="mt-1.5">
-                <a
-                  className="text-white font-bold text-3xl"
-                  target="blank"
-                  href="https://www.fiverr.com/popy_marketer?public_mode=true"
-                >
-                  fi
-                </a>
-              </div>
-            </div>
-            <div className="bg-blue-500 h-12 w-12 rounded-xl text-center">
-              <div className="mt-2">
-                <a
-                  target="blank"
-                  href="https://www.linkedin.com/in/developer-build/"
-                >
-                  <i className="fa-brands fa-linkedin-in text-3xl text-white"></i>
-                </a>
-              </div>
-            </div>
-
-            <div className="bg-gray-700 h-12 w-12 rounded-xl text-center">
-              <div className="mt-2">
-                <a target="blank" href="https://github.com/developer-build">
-                  <i className="fa-brands fa-github text-3xl text-white"></i>
-                </a>
-              </div>
-            </div>
-            <div className="bg-green-500 h-12 w-12 rounded-xl text-center">
-              <div className="mt-1.5">
-                <a
-                  className="text-white font-bold text-2xl"
-                  target="blank"
-                  href="https://www.upwork.com/freelancers/~01ba628056760f5bc6?fbclid=IwAR0vAJeLZyxncXt_IJda-TJzX3foiIP0VaTfY8hEmN9pyf84AvP0Rwb4d7k"
-                >
-                  Up
-                </a>
-              </div>
+            <div className="social-links text-center flex justify-center items-center pt-1">
+              <a href="#" className="twitter">
+                <i className="fa-brands  fa-twitter"></i>
+              </a>
+              <a href="#" className="facebook">
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" className="instagram">
+                <i className="fa-brands  fa-instagram"></i>
+              </a>
+              <a href="#" className="google-plus">
+                <i className="fa-brands  fa-skype"></i>
+              </a>
+              <a href="#" className="linkedin">
+                <i className="fa-brands  fa-linkedin"></i>
+              </a>
             </div>
           </div>
         </div>
       </footer>
-    </>
+    </section>
   );
 };
 

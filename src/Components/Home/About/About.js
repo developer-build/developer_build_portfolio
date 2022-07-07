@@ -49,7 +49,7 @@ const About = () => {
             easily understand the functions of the website. We aim to make the
             website user friendly
           </p>
-          <button className="py-2 mt-5 px-7 rounded-md font-semibold hover:bg-[#2487CE] hover:text-white border-2 border-[#2487CE] text-[#2487CE]">
+          <button className="py-2 mt-5 px-7 rounded-md font-semibold hover:bg-[#265df2] hover:text-white border-2 border-[#265df2] text-[#265df2]">
             Learn More
           </button>
         </div>

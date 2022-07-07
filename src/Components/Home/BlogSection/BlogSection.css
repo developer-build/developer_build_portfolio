@@ -1,23 +1,22 @@
 .hr {
-    height: 2px;
-    width: 100px;
-    background-color: #2487ce;
-    margin-top: 25px;
-    margin-bottom: 50px;
+  height: 2px;
+  width: 100px;
+  background-color: #265df2;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .blog-container {
-    border: 2px dashed rgba(112, 112, 112, 0.2);
-    border-top: none;
-
+  border: 2px dashed rgba(112, 112, 112, 0.2);
+  border-top: none;
+  min-height: 300px;
 }
 
 .blog:hover .blog-container {
-    border: 2px dashed #2487ce;
-    border-top: none;
+  border: 2px dashed #265df2;
+  border-top: none;
 }
 
 .blog:hover .title {
-    color: #2487ce;
-
+  color: #265df2;
 }
