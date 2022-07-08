@@ -36,7 +36,7 @@ const HeroSection = () => {
     },
   ];
   return (
-    <section className="hero_section flex justify-center">
+    <section id="home" className="hero_section flex justify-center">
       <div className="hero_container custom_container m-auto">
         <div className="grid justify-center lg:w-10/12 xl:w-8/12  mx-auto">
           <div className="text-center xl:col-span-7  lg:col-span-9">

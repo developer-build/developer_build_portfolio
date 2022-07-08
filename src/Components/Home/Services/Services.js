@@ -10,7 +10,7 @@ const Services = () => {
   }, []);
   return (
     <Fragment>
-      <div className="bg-[#F8FBFE] py-9">
+      <div id="services" className="bg-[#F8FBFE] py-9">
         <div className="servies-aria custom_container ">
           <div>
             <div className="conent-aria text-center">

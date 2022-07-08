@@ -14,7 +14,6 @@ function App() {
         <Route path="/portfolio/:id" element={<PortfolioDetail />} />
       </Routes>
       <Footer />
-  
     </>
   );
 }

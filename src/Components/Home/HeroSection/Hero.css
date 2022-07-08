@@ -47,7 +47,7 @@
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #265df2;
 }
 .hero_container .hero_button:hover {
   background: #3194db;
@@ -86,13 +86,13 @@
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #265df2;
 }
 .hero_container .icon-box:hover {
   transform: scale(1.08);
 }
 .hero_container .icon-box:hover .title {
-  color: #2487ce;
+  color: #265df2;
 }
 
 @media (max-width: 992px) {

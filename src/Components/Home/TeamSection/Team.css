@@ -1,26 +1,114 @@
-.team {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 20px;
-    padding: 20px;
-}
-
 .team_member {
-    background: #333333;
-    border: .80rem solid white;
-    border-radius: 10px;
-    box-shadow: 7px 10px 5px rgb(231, 231, 231), -3px -7px 10px rgb(230, 230, 230);
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0 4px 21px -12px rgba(181, 192, 255, 0.79);
+  overflow: hidden;
+  min-height: 388px;
+}
+.img_content,
+.team-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.img_content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.team_member_img {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+.team_member_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4070f4;
 }
 
-.team_member_img img {
-    height: 9rem;
-    width: 9rem;
-    border-radius: 50%;
-    border: .80rem solid #fff;
-    object-fit: cover;
-    margin: -5rem auto 30px;
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070f4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070f4;
+}
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
 
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #4070f4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
+.button:hover {
+  background: #265df2;
+}
+.social_icon {
+  margin-top: 20px;
+}
+.social_icon i {
+  font-size: 18px;
+  margin: 0 5px;
+  color: #265df2;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
 }

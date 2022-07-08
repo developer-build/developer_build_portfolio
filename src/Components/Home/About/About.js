@@ -3,19 +3,18 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="w-10/12 mx-auto my-20">
+    <div id="about" className="w-10/12 mx-auto my-20">
       <h1 className="text-4xl font-bold text-center uppercase mb-4 text-[#124265]">
         About us
       </h1>
       <p className="text-center text-gray-400 mb-7">
-        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-        aliquid fuga eum quidem.
+        What a developer build agency and how their team works
       </p>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
         <div>
           <p className="text-gray-700 mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We try to keep all the products released by the developer. We have
+            Expert developers on our products
           </p>
 
           <ul>
@@ -23,34 +22,34 @@ const About = () => {
               <i className="fa-solid fa-check-double text-blue-500"></i>
               <span className="ml-1">
                 {" "}
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                Our team is front-end related and can do anything work.
               </span>
             </li>
             <li className="text-gray-700 my-3">
               <i className="fa-solid fa-check-double text-blue-500"></i>
               <span className="ml-1">
                 {" "}
-                Duis aute irure dolor in reprehenderit in voluptate velit
+                We have some back end and full-stack developers
               </span>
             </li>
             <li className="text-gray-700">
               <i className="fa-solid fa-check-double text-blue-500"></i>
               <span className="ml-1">
                 {" "}
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                We provide our services with integrity
               </span>
             </li>
           </ul>
         </div>
         <div>
           <p className="text-gray-700">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
+            When we get project work done, we first discuss the project with all
+            our team members and we try to do the project with the framework and
+            library that is at the top. We as a user think, how can a user
+            easily understand the functions of the website. We aim to make the
+            website user friendly
           </p>
-          <button className="py-2 mt-5 px-7 rounded-md font-semibold hover:bg-[#2487CE] hover:text-white border-2 border-[#2487CE] text-[#2487CE]">
+          <button className="py-2 mt-5 px-7 rounded-md font-semibold hover:bg-[#265df2] hover:text-white border-2 border-[#265df2] text-[#265df2]">
             Learn More
           </button>
         </div>
