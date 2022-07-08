@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faPhone,
   faEnvelope,
@@ -7,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 // import './ContactSection.css';
 import emailjs from "emailjs-com";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 import GoogleMap from "./GoogleMap/GoogleMap";
 
 const ContactSection = () => {
@@ -16,6 +17,7 @@ const ContactSection = () => {
     const name = e?.target?.name?.value;
     const email = e?.target?.email?.value;
     const message = e?.target?.message?.value;
+    console.log(name, email, message);
 
     if (
       !name ||
@@ -23,9 +25,9 @@ const ContactSection = () => {
       !message ||
       !/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(email)
     ) {
-      return toast.error("Please give valid info!");
+      toast.error("Please give valid info!");
     } else {
-      toast.success("Thanks for your message!");
+      toast.success("Thank you, we will reply to your email within 12 hours!");
     }
     e.preventDefault();
 
@@ -157,6 +159,7 @@ const ContactSection = () => {
                     <button className="btn btn-primary rounded-2 text-white">
                       Send Message
                     </button>
+                    <Toaster />
                   </div>
                 </div>
               </form>
