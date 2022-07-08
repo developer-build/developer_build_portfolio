@@ -23,7 +23,7 @@ const Header = () => {
                 hidden
               />
               <label
-                for="hamburger"
+                htmlFor="hamburger"
                 className="peer-checked:hamburger block relative z-30 p-6 -mr-6 cursor-pointer lg:hidden"
               >
                 <div
@@ -40,9 +40,9 @@ const Header = () => {
                 ></div>
               </label>
 
-              <div className="peer-checked:translate-x-0 fixed inset-0 w-[250px] md:w-[300px] translate-x-[-100%] bg-white   shadow-lg transition duration-500  lg:w-auto lg:static lg:shadow-none lg:translate-x-0 z-[-1000] lg:z-0">
+              <div className="peer-checked:translate-x-0 fixed inset-0 w-[250px] md:w-[300px] translate-x-[-100%] bg-white shadow-lg transition duration-500  lg:w-auto lg:static lg:shadow-none lg:translate-x-0 z-[-1000] lg:z-0">
                 <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
-                  <ul className="px-6 pt-32 text-gray-700 space-y-8 md:px-6 lg:space-y-0 lg:flex xl:space-x-12 lg:pt-0">
+                  <ul className="px-6 pt-32 text-gray-700 space-y-8 md:px-6 lg:space-y-0 lg:flex xl:space-x-12 lg:pt-0 lg:gap-5">
                     <li>
                       <span className="transition-all duration-300  cursor-pointer text-accent hover:text-primary">
                         Home

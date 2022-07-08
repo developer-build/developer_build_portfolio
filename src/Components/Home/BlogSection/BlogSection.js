@@ -14,7 +14,7 @@ const BlogSection = () => {
             </div>
             <div className='relative grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 lg:pb-[100px] md:pb-0 pb-[0px] gap-8 '>
                 {BlogData.map((blog, i) =>
-                    <div className='blog'>
+                    <div key={blog?.id} className='blog'>
                         <div className=''>
                             <img className='w-full z-0' src={blog.img} alt="Blog related image" />
                             <div className='mt-[-30px]'>

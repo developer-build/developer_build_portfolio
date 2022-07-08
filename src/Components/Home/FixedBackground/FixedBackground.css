@@ -1,0 +1,9 @@
+.background{
+    width: 100%;
+    height: 300px;
+    background: url('https://altitudewebcreations.com/wp-content/uploads/2021/05/coding2-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
