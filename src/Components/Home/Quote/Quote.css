@@ -1,0 +1,57 @@
+.quote_sec {
+    min-height: 600px;
+    max-width: 100%;
+    position: relative;
+}
+
+.quote-text {
+    font-size: 18px;
+    background-size: contain;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.quoter-name {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 1.1;
+    color: #123456;
+}
+
+.quoter-name span {
+    -webkit-text-stroke: 1px #123456;
+    color: transparent;
+    background-image: url('https://i.ibb.co/09kDBCb/text-bg.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back-animation 20s linear infinite;
+}
+
+@keyframes back-animation {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+.neon span {
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    color: #123456;
+    text-shadow: 0 0 10px #123456,
+        0 0 20px #123456,
+        0 0 40px #123456,
+        0 0 80px #123456;
+}
+
+.neon span:hover {
+    text-shadow: none;
+    transform: translateY(-8px);
+    transition: transform 0.5s;
+}

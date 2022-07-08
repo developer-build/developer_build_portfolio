@@ -49,9 +49,9 @@ const HeroSection = () => {
             Get Started
           </button>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5  py-20">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-5 py-20">
           {iconsBox.map((icons) => (
-            <article key={icons?._id} className="flex items-stretch ">
+            <article key={icons?._id} className="flex items-stretch">
               <div className="icon-box">
                 <div className="icon">
                   <i className={icons?.icon}></i>

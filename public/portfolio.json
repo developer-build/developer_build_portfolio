@@ -1,0 +1,86 @@
+[
+    {
+        "id":"425",
+        "img":"https://i.ibb.co/dQxw0T3/2.png",
+        "title":"Pionec",
+        "livesite":"https://pionec-menufecturer.web.app/",
+        "description":"Responsive design for all devices, simple Full Stack Website where user have to login to go to protected Route, here is a review route, user can post review about products and it will show on home page, user can order products and delete products from my order page, in my order page user can see her orderd product, here is also have payment method, and user can pay using their credit card. There is admin route where admin can delete, update, add products, after order placing from an user if that's order payment are true. it will pending mode in manage all orders page admin can update the status pending to shipped, there is my profile route . user can update their information in this route."
+    },
+    {
+        "id":"555",
+        "img":"https://i.ibb.co/K0jVZCc/18.png",
+        "title":"Inshot",
+        "livesite":"https://tenth-assignment-ee402.web.app/",
+        "description":"A responsive website. This website is created using HTML5, CSS3 and Bootstrap."
+    },
+    {
+        "id":"653",
+        "img":"https://i.ibb.co/yBq5X42/16.png",
+        "title":"Fruits Corner",
+        "livesite":"https://fruits-corner.netlify.app/",
+        "description":"A warehouse website for fruits. Users can login/register and manage their items, such as adding, deleting, updating. Once the user logs-in, the navbar will show sign out button for the user to sign out whenever the user wants to and many options on the nav than any other indivitual visitor will see. If user forgets password he can reset it and can login with google too."
+    },
+    {
+        "id":"303",
+        "img":"https://i.ibb.co/vYGzt7h/6.png",
+        "title":"Food Shop",
+        "livesite":"https://food-shop-bootstrap.netlify.app/",
+        "description":"A responsive website of food. User can order fresh meal. This website contains 9 sections designed well. We have shown food reviews, soecificity of food, services and a form to contact etc. This website is created using HTML5, CSS3 and Bootstrap."
+    },
+    {
+        "id":"120",
+        "img":"https://i.ibb.co/Y0DXW3b/8.png",
+        "title":"Apple Warehouse",
+        "livesite":"https://phonesy-ad56a.web.app/",
+        "description":"This is a warehouse-related website. Apple products are in stock here. The website has 6 sections. Website design I did myself.The website has a total of 7 pages. If you are logged in to the website, you will be able to increase and decrease the product, you will be able to manage the products. You can add new products. You can delete your added products to see"
+    },
+    {
+        "id":"444",
+        "img":"https://i.ibb.co/vZ6VGd5/14.png",
+        "title":"Red Onion Restaurant",
+        "livesite":"https://red-onion-9a291.web.app/",
+        "description":"An online restaurant website. Where you can see specific meals for breakfast, lunch and dinner. You can add to card and then see them later. Clicking on cart will take you to checkout page. If you are logged in you can access checkout page but if you are not then you have to. THere is also login and signup page where you can create or log in to your own account with your information."
+    },
+    {
+        "id":"510",
+        "img":"https://i.ibb.co/GP30GXQ/10.png",
+        "title":"Construction Tools",
+        "livesite":"https://construction-tools-ea0f5.firebaseapp.com/",
+        "description":"This is a constructor tools website. This website has 9 sections: Title, Banner, Con, Construction Tools, Review, Features, Business, Articles, and Footer. There are some items on the website, each item has a button Buy now. Clicking the button will take you to the Safe Checkout page. When you log in, you will be taken to a secure page. The website has a login and sign up page Sign in or sign up can be done with Google, Facebook, email, and password. Also has user and admin dashboard."
+    },
+    {
+        "id":"969",
+        "img":"https://i.ibb.co/Prt3FGD/15.png",
+        "title":"Influencer Shop",
+        "livesite":"https://developer-sahadat.github.io/influencer-shop/",
+        "description":"A responsive website made with HTML and CSS."
+    },
+    {
+        "id":"888",
+        "img":"https://i.ibb.co/M72bdLQ/4.png",
+        "title":"Doctorio",
+        "livesite":"https://doctorio-a6a0c.web.app/",
+        "description":"This project uses CSS Framework Tailwind and Javascript library ReactJs, Firebase authentication has been added. React firebase hooks have been used, React router used. This project uses the Node Js library Express js, MongoDB database has been used, Environmental variables used, json web token used."
+    },
+    {
+        "id":"000",
+        "img":"https://i.ibb.co/51btBzT/19.png",
+        "title":"Genius Courses",
+        "livesite":"https://online-geinus-course.web.app/",
+        "description":"It is about an online course selling website. The Website is built with react js, node js, express js, material UI, firabase authentication etc. If user is logged in, s/he can see the dashboard. Customers can buy course , add review , manage their order and admin can manage courses, manage all orders."
+    },
+    {
+        "id":"110",
+        "img":"https://i.ibb.co/JmtLBP4/7.png",
+        "title":"Trva",
+        "livesite":"https://cosmic-nasturtium-e42448.netlify.app/",
+        "description":"A website where anyone can book for a destination to travel. We have some blogs there for visitors to read. This website is created using ReactJS and custom custom css to apply styles. There is also signup, services and products page."
+    },
+    {
+        "id":"212",
+        "img":"https://i.ibb.co/bJkFb7f/11.png",
+        "title":"Construction Tools",
+        "livesite":"https://construction-tools-ea0f5.firebaseapp.com/",
+        "description":"This is a constructor tools website. Constructor tools are in stock here. The website has 9 sections. Website design I did myself. The website has a user and admin dashboard."
+    }
+]
