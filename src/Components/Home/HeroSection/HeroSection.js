@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   const iconsBox = [
@@ -45,9 +46,12 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="text-center mx-auto">
-          <button className="hero_button bg-primary text-white">
+          <Link
+            to="contact"
+            className=" hero_button bg-primary text-white cursor-pointer"
+          >
             Get Started
-          </button>
+          </Link>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-5 py-20">
           {iconsBox.map((icons) => (

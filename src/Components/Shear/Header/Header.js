@@ -86,12 +86,12 @@ const Header = () => {
                   </ul>
 
                   <div className="border-t p-6  lg:border-t-0  lg:py-0 lg:pr-0 lg:pl-6">
-                    <button
-                      href="#"
-                      className="block w-full px-6 py-3 rounded-md bg-gradient-to-r from-primary to-cyan-400 text-center text-white"
+                    <Link
+                      to="contact"
+                      className="block cursor-pointer w-full px-6 py-3 rounded-md bg-gradient-to-r from-primary to-cyan-400 text-center text-white"
                     >
                       Get started
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
