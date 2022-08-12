@@ -128,7 +128,11 @@ const Footer = () => {
               <a href="#" className="google-plus">
                 <i className="fa-brands  fa-skype"></i>
               </a>
-              <a href="#" className="linkedin">
+              <a
+                target="black"
+                href="https://www.linkedin.com/company/developer-build/"
+                className="linkedin"
+              >
                 <i className="fa-brands  fa-linkedin"></i>
               </a>
             </div>

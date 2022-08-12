@@ -38,7 +38,11 @@ const HeroSection = () => {
   ];
   return (
     <section id="home" className="hero_section flex justify-center">
-      <div className="hero_container custom_container m-auto">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        className="hero_container custom_container m-auto"
+      >
         <div className="grid justify-center lg:w-10/12 xl:w-8/12  mx-auto">
           <div className="text-center xl:col-span-7  lg:col-span-9">
             <h1>Welcome to the web Development Agency</h1>
@@ -53,9 +57,14 @@ const HeroSection = () => {
             Get Started
           </Link>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-5 py-20">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5  py-20">
           {iconsBox.map((icons) => (
-            <article key={icons?._id} className="flex items-stretch">
+            <article
+              data-aos="zoom-in"
+              data-aos-delay="300"
+              key={icons?._id}
+              className="flex items-stretch "
+            >
               <div className="icon-box">
                 <div className="icon">
                   <i className={icons?.icon}></i>

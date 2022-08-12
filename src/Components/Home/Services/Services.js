@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <Fragment>
       <div id="services" className="bg-[#F8FBFE] py-9">
-        <div className="servies-aria custom_container ">
+        <div data-aos="fade-up" className="servies-aria custom_container ">
           <div>
             <div className="conent-aria text-center">
               <h1 className="text-[#124265] pt-5 font-bold text-3xl mt-4 uppercase">
@@ -23,9 +23,15 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <section className="grid px-5 lg:grid-cols-3 md:grid-cols-2  py-10 services gap-6">
+          <section
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            className="grid px-5 lg:grid-cols-3 md:grid-cols-2  py-10 services gap-6"
+          >
             {services.map((service) => (
               <div
+                data-aos="zoom-in"
+                data-aos-delay="200"
                 key={service?._id}
                 className="lg:w-[360px]  mx-auto cursor-pointer "
               >

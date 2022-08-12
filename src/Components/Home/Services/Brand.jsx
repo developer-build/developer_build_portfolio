@@ -10,22 +10,39 @@ const Brand = () => {
     <Fragment>
       <div className=" my-10 bard-aria  bg-[#f8fbfe]">
         <div className="grid custom_container py-2 mx-auto grid-cols-1 lg:grid-cols-4  md:grid-cols-2 items-center justify-center ">
-          <img
-            id="bradnimg"
-            className="w-[150px] my-2 lg:mt-0 mt-4 mx-auto"
-            src={upwork}
-          />
-          <img
-            id="bradnimg"
-            className="w-[200px] my-2 mx-auto"
-            src={freelancer}
-          />
-          <img id="bradnimg" className="w-[120px] my-2 mx-auto" src={fiveer} />
-          <img
-            id="bradnimg"
-            className="w-[140px] my-2 lg:mt-2 mt-3 mx-auto"
-            src={linkdeing}
-          />
+          <a
+            href="https://www.upwork.com/freelancers/~01ba628056760f5bc6"
+            target="black"
+          >
+            <img
+              id="bradnimg"
+              className="w-[150px] my-2 lg:mt-0 mt-4 mx-auto"
+              src={upwork}
+            />
+          </a>
+          <a href="#">
+            {" "}
+            <img
+              id="bradnimg"
+              className="w-[200px] my-2 mx-auto"
+              src={freelancer}
+            />
+          </a>
+          <a href="https://www.fiverr.com/share/RNG69L" target="black">
+            <img
+              id="bradnimg"
+              className="w-[120px] my-2 mx-auto"
+              src={fiveer}
+            />
+          </a>
+          <a href="#">
+            {" "}
+            <img
+              id="bradnimg"
+              className="w-[140px] my-2 lg:mt-2 mt-3 mx-auto"
+              src={linkdeing}
+            />
+          </a>
         </div>
       </div>
     </Fragment>
