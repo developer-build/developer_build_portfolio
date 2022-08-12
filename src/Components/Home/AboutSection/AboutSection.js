@@ -4,8 +4,9 @@ import "./AboutSection.css";
 const AboutSection = () => {
   return (
     <section
+      data-aos="fade-up"
       id="about-section"
-      className="custom_container text-secondary flex lg:flex-row flex-col items-center gap-10 lg:px-5 py-10"
+      className="custom_container px-5 text-secondary flex lg:flex-row flex-col items-center gap-10 lg:px-5 py-10"
     >
       {/* video part */}
       <div className="video-div relative lg:w-1/2 w-full">

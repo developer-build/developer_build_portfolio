@@ -16,7 +16,10 @@ const TeamSection = () => {
   return (
     <>
       <section className="team_container">
-        <div className="team_slider bg-[#f8fbfe] my-10 py-5 ">
+        <div
+          data-aos="fade-up"
+          className="team_slider bg-[#f8fbfe] my-10 py-5 "
+        >
           <div className="conent-aria text-center pt-5">
             <h1 className="text-[#124265] pt-5 font-bold text-3xl mt-4 uppercase">
               Our Team Member

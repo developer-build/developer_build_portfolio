@@ -57,15 +57,18 @@ const Header = () => {
                     <li>
                       <Link
                         to="services"
-                        className="transition-all duration-300 cursor-pointer text-accent hover:text-primary"
+                        className=" transition-all duration-300 cursor-pointer text-accent hover:text-primary"
                       >
                         Services
                       </Link>
                     </li>
                     <li>
-                      <span className="transition-all duration-300 cursor-pointer text-accent hover:text-primary">
+                      <Link
+                        to="Portfolio"
+                        className="transition-all duration-300 cursor-pointer text-accent hover:text-primary"
+                      >
                         Portfolio
-                      </span>
+                      </Link>
                     </li>
                     <li>
                       <Link

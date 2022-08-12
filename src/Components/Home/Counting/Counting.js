@@ -6,7 +6,10 @@ import "./count.css";
 const Counting = () => {
   return (
     <Fragment>
-      <section className=" bg-[#F8FBFE] py-16 text-secondary mb-10">
+      <section
+        data-aos="fade-up"
+        className=" bg-[#F8FBFE] py-16 text-secondary mb-10"
+      >
         <div className="custom_container flex justify-center ">
           <div className=" grid grid-cols-2  lg:grid-cols-4 gap-14 sm:gap-24 md:gap-44 justify-center items-center">
             <div className="count-title">

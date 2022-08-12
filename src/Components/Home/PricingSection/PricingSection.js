@@ -5,7 +5,10 @@ import "./PricingSection.css";
 const PricingSection = () => {
   return (
     <div className="bg-[white]/60 py-24 lg:px-8 px-0 custom_container">
-      <div className="custom_container px-10 lg:px-0 md:px-5">
+      <div
+        data-aos="fade-up"
+        className="custom_container px-10 lg:px-0 md:px-5"
+      >
         <header className="text-center mb-16">
           <h1 className="text-[#124265] font-bold text-3xl mt-4 uppercase">
             Our Package
@@ -18,7 +21,11 @@ const PricingSection = () => {
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-end justify-center">
-          <div className="our-package-card p-[24px] rounded-[8px]">
+          <div
+            data-aos="zoom-im"
+            data-aos-delay="100"
+            className="our-package-card p-[24px] rounded-[8px]"
+          >
             <h3 className="font-bold pb-[8px] text-[32px] text-accent ">
               $100
             </h3>
@@ -48,7 +55,11 @@ const PricingSection = () => {
             </div>
             <button className="our-package-btn">Book Now</button>
           </div>
-          <div className="our-package-card p-[24px] rounded-[8px]">
+          <div
+            data-aos="zoom-im"
+            data-aos-delay="100"
+            className="our-package-card p-[24px] rounded-[8px]"
+          >
             <h3 className="font-bold pb-[8px] text-[32px] text-accent ">
               $350
             </h3>
@@ -78,7 +89,11 @@ const PricingSection = () => {
             </div>
             <button className="our-package-btn">Book Now</button>
           </div>
-          <div className="our-special-package p-[24px] text-white rounded-[8px]">
+          <div
+            data-aos="zoom-im"
+            data-aos-delay="100"
+            className="our-special-package p-[24px] text-white rounded-[8px]"
+          >
             <h4 className="font-bold pb-3  text-[32px] text-[18px]">$600</h4>
             <h4 className="font-bold pb-2 h3 text-[24px]">Premium Services</h4>
             <p className="text-white pt-4 pb-3">
@@ -105,7 +120,11 @@ const PricingSection = () => {
             <button className="our-package-btn  px-5">Book Now</button>
             <span className="best-sell">Best Sell</span>
           </div>
-          <div className="our-package-card p-[24px] rounded-[8px]">
+          <div
+            data-aos="zoom-im"
+            data-aos-delay="100"
+            className="our-package-card p-[24px] rounded-[8px]"
+          >
             <h3 className="font-bold pb-[8px] text-[32px] text-accent ">
               $1500
             </h3>

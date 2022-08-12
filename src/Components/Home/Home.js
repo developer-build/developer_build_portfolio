@@ -23,13 +23,14 @@ const Home = () => {
       <Counting />
       <AboutSection />
       <Brand />
+      {/* <Quote /> */}
       <Services />
-      <FixedBackground />
+      {/* <FixedBackground /> */}
       <PricingSection />
       {/* <FAQsection /> */}
-      <PortfolioSection />
+      {/* <PortfolioSection /> */}
       <TeamSection />
-      <Quote />
+
       <BlogSection />
       <ContactSection />
     </>
